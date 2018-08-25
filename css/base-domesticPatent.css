@@ -1,0 +1,577 @@
+﻿@charset "utf-8";
+/* 站点说明：存放各个页面的单独样式 
+ * 开发时间： 
+ * 开发者：
+ * 维护者：
+ *
+ * 样式版本： v1.0
+ * 版本时间： 
+ */
+.main-white {
+    background-color: #fff;
+}
+
+/*query-works.html  查询作品能否申请*/
+.nM-form {
+    background-color: #fff;
+    padding-top: 0.19rem;
+}
+
+.form-input, .form-submit,
+.form-select {
+    width: 2.64rem;
+    margin: 0 auto;
+    height: 0.52rem;
+    font-size: 0.12rem;
+    padding: 0;
+
+}
+
+.form-tel {
+    height: 0.70rem;
+}
+
+.form-input input[type='text'],
+.form-input input[type='tel'],
+.form-select select {
+    font-family: "\5FAE\8F6F\96C5\9ED1", Helvetica, sans-serif;
+    padding-top: 0.12rem;
+    padding-bottom: 0.12rem;
+    width: 2.5rem;
+    border: 1px solid #aaaaaa;
+    font-size: 0.12rem;
+    padding-left: 0.13rem;
+    border-radius: 0.05rem;
+    margin-bottom: 0.1rem;
+}
+.form-textarea{ width: 2.64rem;  margin: 0 auto;  font-size: 0.12rem;  padding: 0; position: relative; z-index: 0;}
+.form-textarea textarea{ width: 2.44rem; border: 1px solid #aaaaaa;  font-size: 0.12rem; padding: 0.05rem 0.05rem 0.05rem 0.13rem;  border-radius: 0.05rem; margin-bottom: 0.06rem; resize: none; background: rgba(255,255,255,0.1); position: relative; z-index: 0;}
+.ft-font{ position: absolute; font-size: 0.12rem; padding: 0.06rem 0.13rem; color: #999; top: 0; left: 0; z-index: -1;}
+
+.form-select select{
+    width: 2.6rem;
+    height: 0.42rem;
+    line-height: 0.42rem;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+.form-input .form-error {
+    display: none;
+    font-size: 0.12rem;
+    color: #e94b2a;
+    line-height: 0.12rem;
+}
+
+.form-input .form-error em {
+    display: inline-block;
+    width: 0.11rem;
+    height: 0.11rem;
+    line-height: 0.12rem;
+    background:url("../images/icon_01.png") no-repeat left center;
+    background-size: 100% 100%;
+    margin-right: 0.03rem; position: relative; top: 0.01rem;
+}
+
+.form-submit button {
+    width: 100%;
+    height: 0.40rem;
+    line-height: 0.40rem;
+    border: 0;
+    border-radius: 0.05rem;
+    font-size: 0.18rem;
+    text-align: center;
+    color: #fff;
+    background-color: #07b68b;
+}
+
+.form-select select option {
+    color: #999999;
+}
+
+/*query-works.html  软件版权登记-费用查询*/
+.form-select select {
+    width: 2.64rem;
+}
+
+.free-query-intro {
+    width: 2.64rem;
+    margin: 0.20rem auto 0;
+    line-height: 0.19rem;
+    font-size: 0.12rem;
+    text-align: center;
+    color: #666666;
+}
+
+/*弹出框*/
+.dialogYN {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: 99;
+}
+
+.mask { position: fixed; left: 0; top: 0; width: 100%;  height: 100%; background-color: #000; filter: Alpha(opacity=60); opacity: .6;  z-index: 19; display: none; }
+
+.dialog-con,.success-con {
+    position: absolute;
+    width: 2.40rem;
+    height: 1.735rem;
+    left: 50%;
+	margin-left:-1.2rem;
+    top: 0.70rem;
+    -webkit-border-radius:0.10rem;
+    border-radius: 0.15rem;
+    background-color: #fff;
+}
+
+.success-con {
+    position: absolute;
+    width: 2.8rem;
+    height: 1.7rem;
+    left: 50%;
+	margin-left:-1.42rem;
+    top: 50%;
+    margin-top: -0.85rem;
+    -webkit-border-radius:0.10rem;
+    border-radius: 0.15rem;
+    background-color: #fff;
+    z-index: 20;
+    box-sizing: border-box;
+    padding: 0.12rem;
+    display: none;
+}
+
+.success-con i {
+    display: block;
+    width: 0.35rem;
+    height: 0.35rem;
+    margin: 0.10rem auto 0.10rem;
+    border-radius: 50%; background:url(../images/icon010.png) no-repeat center;
+	background-size:100%;
+    color: #fff;
+    line-height: 0.70rem;
+    font-size: 0.40rem;
+    text-align: center;
+}
+
+.success-con h2 {
+    text-align: center;
+    font-size: 0.15rem;
+    line-height: 0.20rem;
+    font-weight: normal;
+}
+.success-con  hr{ margin: 0.05rem 0;}
+.success-con p {
+    text-align: center;
+    font-size: 0.13rem;
+    line-height: 0.2rem;
+    padding-top: 0.06rem;
+    color: #666;
+}
+
+.success-con p span {
+    color: #ff7d01;
+}
+
+.failed-con i {
+    display: block;
+    width: 0.875rem;
+    height: 0.795rem;
+    margin: 0.20rem auto 0.10rem;
+    background: url("../images/error-tip.png") no-repeat center;
+	background-size:100%;
+}
+
+.failed-con p {
+    text-align: center;
+    font-size: 0.14rem;
+    line-height: 0.34rem;
+    color: #333333;
+}
+
+/*大转盘*/
+.dial {
+    width: 100%;
+    background-image: url(../images/bg_lucky.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    overflow: hidden;
+    min-height: 5.48rem;
+}
+
+.btn-dial-close {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0.5rem;
+    height: 0.5rem;
+    z-index: 9;
+}
+
+.btn-dial-close img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+}
+
+.dial .d-title {
+    display: block;
+    padding-top: 0.35rem;
+    width: 3.00rem;
+    height: 0.75rem;
+    margin: 0 auto;
+    background-size: 100%;
+}
+
+.dial .d-attend {
+    font-size: 0.14rem;
+    font-style: italic;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 0.16rem;
+    margin-top: 1.02rem;
+}
+
+.dial .da-count {
+    font-size: 0.15rem;
+    font-style: italic;
+    font-weight: bold;
+    color: #fef115;
+}
+
+.dial .d-cycle {
+    position: relative;
+    width: 2.86rem;
+    height: 2.86rem;
+    margin: 0 auto 0;
+    margin-top: 1.125rem;
+    padding-top: 0.005rem;
+    background-image: url(../images/img_round.png);
+    background-size: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.d-cycle .dc-point {
+    position: absolute;
+    left: 1.28rem;
+    width: 0.26rem;
+    height: 0.39rem;
+    margin-top: -0.058rem;
+    overflow: hidden;
+    z-index: 1;
+    font-size: 0.12rem;
+}
+
+.d-cycle .dcp-point {
+    width: 0.26rem;
+    height: 0.38rem;
+    font-size: 0.12rem;
+}
+
+.d-cycle .dc-inner {
+    width: 2.48rem;
+    height: 2.48rem;
+    margin: 0.16rem auto 0;
+    overflow: hidden;
+    background: url(../images/img_cycle.png) no-repeat left top;
+    background-size: 100%;
+}
+
+.d-cycle .dci-cycle {
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+}
+
+.d-cycle a.btn-go {
+    display: block;
+    position: absolute;
+    width: 0.75rem;
+    height: 0.75rem;
+    top: 1.05rem;
+    left: 1.05rem;
+    padding: 0;
+    background-image: url(../images/img_go.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    box-sizing: border-box;
+    z-index: 2;
+    font-size: 0.12rem;
+    color: #bc3500;
+    font-weight: bold;
+    text-align: center;
+}
+
+a.btn-go .dcg-go {
+    display: block;
+    margin: 0.1rem auto 0;
+    width: 0.4rem;
+    height: 0.4rem;
+    background-image: url(../images/img_fontgo.png) ;
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-size: cover;
+}
+
+.activity-btn {
+    overflow: hidden;
+    text-align: center;
+    font-size: 0.12rem;
+}
+
+a.btn-activity {
+    font-size: 0.15rem;
+    font-weight: bold;
+    color: #bd1a00;
+    text-align: center;
+    display: inline-block;
+    margin: 0.2rem auto 0;
+    width: 1rem;
+    height: 0.33rem;
+    line-height: 0.30rem;
+    background: url(../images/img_btn03.png) 0 0 no-repeat;
+    background-size: 100%;
+}
+
+.activity-list {
+    width: 100%;
+    margin: 0.23rem auto 0;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.dc-list {
+    width: 100%;
+    background: url(../images/img_black.png) top no-repeat;
+    background-size: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding-top: 0.034rem;
+}
+
+.dc-list .dcl-main {
+    width: 100%;
+    padding: 0 0.25rem 0;
+    background: url(../images/img_yellow.png) no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.gift-list .dc-list .dcl-main {
+    height: 0.70rem;
+}
+
+.dcl-main .dcl-user {
+    width: 100%;
+    /*padding-top: 0.10rem;*/
+    line-height: 0.24rem;
+    font-size: 0.12rem;
+    color: #bd1a00;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.dcl-user span.dcl-prize {
+    display: block;
+    float: right;
+    width: 0.96rem;
+    vertical-align: middle;
+    overflow: hidden;
+    font-size: 0.12rem;
+}
+
+/*大转盘补充*/
+.filter{
+	position:fixed;
+	display:none;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	background-color:#000;
+	opacity:0.5;
+	z-index:10;
+}
+.bg-c {
+    background-color: #820301;
+}
+
+.prize-dialog {
+    background-color: #b1221f;
+	display:none;
+    width: 2.73rem;
+    z-index: 11;
+    position: fixed;
+    height: 3.73rem;
+    top: 50%;
+	left: 50%;
+	margin-top: -1.865rem;
+	margin-left: -1.365rem;
+    border-radius: 0.05rem;
+}
+
+.prize-dialog img.pd-top {
+    width: 100%;
+    background-size: 100%;
+}
+
+.prize-dialog .pd-main {
+    width: 100%;
+    font-size: 0.12rem;
+}
+
+.prize-dialog .pd-main input[type="input"]{
+    font-size: 0.12rem;
+}
+.prize-warn {
+    font-size: 0.13rem;
+    color: #ffe639;
+    font-weight: bold;
+    word-spacing: 0.01rem;
+    text-align: center;
+    margin-top: 0.20rem;
+    line-height: 0.14rem;
+}
+
+.prize-product-info {
+    font-size: 0.11rem;
+    text-align: center;
+    color: #6a0402;
+    line-height: 0.24rem;
+}
+
+.prize-dialog input::-webkit-input-placeholder {
+    color: #999999;
+}
+
+.prize-dialog input::-moz-placeholder {
+    color: #999999;
+}
+
+.prize-dialog input:-ms-input-placeholder {
+    color: #999999;
+}
+
+.prize-dialog .input-txt {
+    display: block;
+    width: 1.87rem;
+    padding-left: 0.12rem;
+    box-sizing: border-box;
+    background-color: #fff;
+    border: 0 none;
+    border-radius: 5px;
+    font-size: 0.12rem;
+    color: #666;
+    outline: 0 none;
+    padding-top: 0.09rem;
+    padding-bottom: 0.09rem;
+}
+
+.prize-dialog .input-user {
+    margin: 0.15rem auto 0;
+    font-size: 0.12rem;
+    height: 0.3rem;
+}
+
+.pd-main .input-mobiel {
+    margin: 0.06rem auto 0;
+    font-size: 0.12rem;
+    padding-top: 0.09rem;
+    padding-bottom: 0.09rem;
+    height: 0.3rem;
+
+}
+.pd-main input{
+    font-size: 0.12rem;
+
+}
+.pd-main .form-error {
+    display: none;
+    width: 1.92rem;
+    margin: 0.04rem auto;
+    font-size: 0.12rem;
+    color: #ffe337;
+}
+
+.pd-main .form-error em {
+    display: inline-block;
+    width: 0.1rem;
+    height: 0.1rem;
+    line-height: 0.12rem;
+    background: url("../images/icon_02.png") no-repeat left center;
+    background-size: 100% 100%;
+    margin-right: 0.05rem;
+}
+
+.prize-dialog a.btn-save {
+    display: block;
+    margin: 0.125rem auto 0;
+    width: 1.43rem;
+    height: 0.3rem;
+    background: url(../images/img_btn02.png) 0 0 no-repeat;
+    background-size: 100%;
+    font-size: 0.12rem;
+    line-height: 0.3rem;
+    color: #800200;
+    text-align: center;
+}
+
+.prize-dialog a.btn-closed {
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 0.43rem;
+    height: 0.43rem;
+    padding-top: 0.25rem;
+    background: url(../images/img_close.png) 0 0 no-repeat;
+    box-sizing: border-box;
+    background-size: 100%;
+}
+
+.prize-dialog a.btn-closed img {
+    display: block;
+    float: right;
+    width: 0.12rem;
+    height: 0.12rem;
+    margin-right: 0.05rem;
+    background-size: 100%;
+}
+
+.pdm-fail {
+    font-size: 0.14rem;
+    line-height: 0.4rem;
+    color: #f6ff00;
+    font-weight: bold;
+    text-align: center;
+}
+
+.fail,.success,.sjInfo{
+    height: 0.40rem;
+    box-shadow: 3px 1px 8px #640E00;
+	margin-top: -0.2rem;
+	top: 1.8rem;
+}
+
+.backTop{
+    position: fixed;
+    right: 5px;
+    display: block;
+    bottom: 0.6rem;
+    width: 0.4rem;
+    z-index: 999;
+    font-size: 0.12rem;
+}
+.backTop img{
+    width: 0.4rem;
+    height: 0.4rem;
+}

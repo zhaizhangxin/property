@@ -1,0 +1,99 @@
+﻿@charset "utf-8";
+
+/*主导航*/
+
+
+/*首页  主导航*/
+
+.nav-main {
+	position: relative;
+	padding-top: 0.48rem;
+	z-index: 8;
+}
+
+.nav-scroll {
+	width: 100%;
+	overflow-x: scroll;
+	height: 0.36rem;
+}
+
+.ns-con {
+	width: 170%;
+	height: 0.36rem;
+	padding-right: 0.36rem;
+}
+
+.ns-con li {
+	float: left;
+	width: 14%;
+	height: 0.36rem;
+}
+
+.ns-con li a {
+	display: block;
+	height: 0.36rem;
+	line-height: 0.36rem;
+	text-align: center;
+	font-size: 0.14rem;
+	color: #333;
+}
+
+.ns-con li.current a {
+	border-bottom: solid 0.01rem #c40000;
+	color: #c40000;
+}
+
+.droplist-btn {
+	height: 0.36rem;
+	width: 0.36rem;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background: #fff url("../images/icon027.png") no-repeat center;
+	background-size: 40%;
+	box-shadow: -0.04rem 0 0.06rem #ccc;
+}
+
+.droplist-btndown {
+	background: #fff url("../images/icon028.png") no-repeat center;
+	background-size: 40%;
+}
+
+.nav-droplist {
+	position: absolute;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 0.02rem 0.02rem;
+	left: 0;
+	top: 0.8rem;
+	overflow: hidden;
+	background: rgba(255, 255, 255, 0.95);
+	display: none;
+}
+
+.nav-droplist li {
+	width: 24.9%;
+	float: left;
+	box-sizing: border-box;
+	padding: 0.08rem;
+}
+
+.nav-droplist li a {
+	display: block;
+	height: 0.28rem;
+	line-height: 0.28rem;
+	text-align: center;
+	border: solid 0.01rem #c4c4c4;
+	font-size: 0.12rem;
+	color: #333;
+}
+
+.cover {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 0.06rem;
+	width: 100%;
+	background-color: #f1f1f1;
+	z-index: 10;
+}

@@ -1,0 +1,133 @@
+﻿@charset "utf-8";
+body{ background-color: #f2f2f2;}
+img{ width: 100%; vertical-align: top;}
+
+/*首页 头部*/
+.container{ width:100%; margin:0 auto; background-color:#fff; box-sizing:border-box;}
+.header{ height:2.4rem; background-color:#c40000; padding:0 0.6rem; overflow:hidden; box-sizing:border-box; border-bottom:solid 0.05rem #cd3333;}
+.hi-logo{ width:3.4rem; height:1.1rem;  background:url("../images/logo_1.png") no-repeat; margin-top:0.6rem; float:left; background-size: contain;}
+.hi-search{ width:72%; height:1.25rem; line-height:1.25rem; float:right; background-color:#fff; border-radius:0.1rem; margin-top:0.6rem; position:relative;}
+.his-text{ display:block; font-size:0.6rem; color:#aaa; padding-left:0.6rem; }
+.his-btn{ height:0.6rem; width:0.6rem; background:url("../images/icon03_1.png") no-repeat; background-size: 100%;  position:absolute; right:0.6rem; top:0.35rem;}
+
+/* 首页 banner */
+.banner{ height:5rem; position:relative; overflow:hidden; width:100%; margin-top:0.15rem;}
+.banner_list{position:absolute; width: 100%;  height: 100%;}
+.banner_list ul{ overflow:hidden;}
+.banner_list ul li{position:absolute; float:left; width: 100%;  height: 100%;}
+.banner_list ul li a{ display:block;font-size: 0.6rem;}
+.banner_buttons{ position:absolute; margin-left:-0.86rem; bottom:0.2rem; left:50%; -ms-transform: translate(-50%,-50%);}
+.banner_buttons span{ width:0.2rem; height:0.2rem; border:0.05rem solid #fff; border-radius:50%; float:left; margin:0 0.25rem; cursor:pointer;}
+.banner_buttons .on{background-color:#fff;}
+
+/* 首页 搜索框 */
+.search{ padding: 0.4rem 0.5rem; background-color: #fff; overflow: hidden; position: relative;}
+.search input{ width: 60%; float: left; font-size: 0.6rem; border: solid 0.1rem #e5e5e5; border-radius: 0.1rem 0 0 0.1rem; border-right: none; height: 1.6rem; line-height: 1rem; box-sizing: border-box; padding-left: 1rem; }
+.search-btn{ width: 39.9%; float: left; height: 1.6rem; line-height: 1.6rem; text-align: center; color: #fff; font-size: 0.6rem; background-color: #de0000; border-radius: 0 0.1rem 0.1rem 0; }
+.search-icon{ height:0.7rem; width:0.6rem; background:url("../images/icon03_1.png") no-repeat; background-size: 100%;  position:absolute; left:0.8rem; top:0.88rem;}
+
+/* 国家注册申请 */
+.state-nav{ margin-top: 0.25rem;}
+.state-con{ overflow: hidden;}
+.state-con  li{ width: 24.7%; float: left; border-bottom: solid 0.05rem #f2f2f2; border-right: solid 0.05rem #f2f2f2; text-align: center; padding: 0.7rem 0; }
+.state-con  li:nth-child(4n){  border-right: none;}
+.state-img{ width: 2rem; margin: 0 auto; }
+.state-text{ font-size: 0.5rem; color: #333; padding-top: 0.5rem;}
+
+/* 注册说明 */
+.explain{ margin-top: 0.25rem;}
+.explain-con{ overflow: hidden;}
+.explain-con li{ width: 33%; float: left; text-align: center; padding: 0.7rem 0; border-right: solid 0.05rem #f2f2f2; }
+.explain-con li:nth-child(3){  border-right: none;}
+.explain-con li a{ display: block;}
+.explain-img{ width:2.6rem; margin: 0 auto; }
+.explain-title{ font-size: 0.6rem; color: #333; font-weight: normal; padding: 0.5rem 0 0.2rem 0;}
+.explain-text{ font-size: 0.5rem; color: #666; line-height: 0.7rem; }
+
+/* 中细软的优势 */
+.advantage{ margin-top: 0.25rem;}
+.advantage-tit{ text-align: center; font-size: 0.7rem; color: #011; font-weight: normal; padding-top: 1rem;}
+.advantage-con{ padding: 0.3rem 1.4rem 0.8rem 1.4rem;}
+.advantage-con li{ overflow: hidden; padding: 0.2rem 0;}
+.advantage-img{ float: left; width: 2.4rem; margin-right: 0.6rem; }
+.advantage-text{ float: left; height: 2.8rem; box-sizing: border-box; width: 10rem; font-size: 0.6rem; color: #666; padding: 0.7rem 0 1rem 0; line-height: 1rem; border-bottom: dashed 0.05rem #e5e5e5;}
+.advantage-textpad{ padding-top: 0.3rem;}
+.advantage-textlast{ border-bottom: none;}
+
+/* 关于我们  */
+.about{ margin-top: 0.25rem; padding: 1rem 0.6rem 3rem 0.6rem;}
+.about-title{ font-size: 0.7rem; font-weight: normal; color: #011; text-align: center;}
+.about-img{ margin: 0.6rem 0;}
+.about-text{ overflow:hidden; padding: 0.2rem 0;}
+.about-text span{ float: left; font-size: 0.6rem; color: #666;}
+.about-text .at-left{ color: #333; width: 3.2rem; text-align: right;}
+.about-text .at-right{ width: 11rem;}
+.about-text .at-right a{ font-size: 0.6rem; color: #3e6ce6; text-decoration: underline;}
+.btn-blue{ display: block; width: 100%; height: 2rem; line-height: 2rem; color: #fff; text-align: center; font-size: 0.7rem; background-color: #3e6ce6; border-radius: 0.1rem;}
+
+/*首页  底部*/
+.footer{ height:2.5rem;  overflow:hidden; position: fixed; bottom: 0;  width: 100%;}
+.footer ul{ width:100%; overflow:hidden; background-color:#f5f5f5; border-top:solid 0.05rem #ddd;}
+.footer ul li{ float:left; width:22%; text-align: center;}
+.footer-time{ border-right:solid 0.05rem #ddd;}
+.footer-cost,.footer-flow{ border-left:solid 0.05rem #fff; border-right:solid 0.05rem #ddd;}
+.footer ul .footer-offer{  width:32%;   background-color: #de0000;}
+.footer ul li a{ display:block; height:2.5rem;  text-align:center; font-size:0.6rem; color:#5d656b;}
+.footer ul .footer-offer a{  color: #fff;}
+.footer ul li a em{ display: inline-block; width: 0.65rem; height: 0.65rem; padding: 0.4rem 0 0.3rem 0;}
+.footer ul li a em img{ width: 100%;}
+
+/* 页面顶部标题  */
+.page-title{ height: 2.1rem; line-height: 2.1rem; background-color: #3e6ce6; color: #fff; position: relative;}
+.go-back{ position: absolute; width: 1.2rem; height: 1.2rem; line-height: 1.2rem; color: #fff; font-size: 0.9rem; left: 0.6rem; top: 0.45rem;}
+.page-title h3{ text-align: center; font-size: 0.9rem; font-weight: normal;}
+
+/* 须知  */
+.notice-con{ padding: 0.8rem 0.6rem;}
+.notice-con ul li{ font-size: 0.6rem; color: #666; line-height: 0.9rem; border-bottom: dashed 0.05rem #e5e5e5; padding: 0.4rem 0;}
+.notice-con ul .notice-last{ border-bottom: none;}
+.notice-btn{ padding: 1rem 0.6rem; overflow: hidden;}
+.notice-btn .btn-blue{ width: 7rem; float: left;}
+.btn-yellow{ display: block;   height: 2rem; line-height: 2rem; color: #fff; text-align: center; font-size: 0.7rem; border-radius: 0.1rem; background-color: #ff9c00;}
+.notice-btn  .btn-yellow{ width: 7rem; float: right;}
+
+/* 周期及费用  */
+.tc-con{ overflow: hidden; padding: 0.8rem 0.6rem; border-bottom: solid 0.05rem #f2f2f2;}
+.tcc-img{ width: 3.7rem; float: left; margin-top: 0.05rem;}
+.tcc-text{ width: 6.5rem; float: left; box-sizing: border-box; padding-left: 0.6rem;}
+.tcc-text h3{ font-weight: normal; font-size: 0.6rem; color: #333; padding-bottom: 0.1rem;}
+.tcc-text p{ font-size: 0.5rem; color: #666; line-height: 0.7rem;}
+.tcc-text p span{ color: #3e6ce6;}
+.tc-con .btn-blue{ width:4.4rem; float: right; height: 1.2rem; line-height: 1.2rem; font-size: 0.6rem; margin-top: 0.8rem;}
+
+/* 所需材料  */
+.materials{  padding: 0.8rem 0.6rem;}
+.materials-con{ margin-bottom: 0.6rem; overflow: hidden; border: solid 0.05rem #e5e5e5; box-sizing: border-box; padding: 0.5rem 0 0.5rem 0.5rem;}
+.materials-img{ width: 3.5rem; float: left; padding-top: 0.2rem; }
+.materials-text{ width: 10rem; float: left; margin-left: 0.6rem;}
+.materials-text h3{ font-size: 0.6rem; color: #333; padding-bottom: 0.4rem; font-weight: normal;}
+.materials-text p{ font-size: 0.5rem; color: #666; line-height: 0.8rem;}
+.materials-btn{ padding: 1.2rem 0.6rem; }
+
+/*  遮罩层  */
+.mask { position: fixed; left: 0; top: 0; width: 100%;  height: 100%; background-color: #000; filter: Alpha(opacity=70); opacity: .7;  z-index: 30; display: none; }
+
+/* 表单弹窗 */
+.pop-form{ position: fixed; top: 50%; margin-top: -8rem; left: 50%; margin-left: -7rem;  width: 14rem; background-color: #fff; box-sizing: border-box; padding: 1rem; z-index: 99; display: none; }
+.pf-close{ position: absolute; width: 2rem; height: 2.1rem; left: 50%; margin-left: -1rem; bottom: -2.8rem; display: block; background: url("../images/icon02.png") no-repeat; background-size: 100%;}
+.pop-form h3{ font-size: 0.8rem; color: #3e6ce6; text-align: center; padding-bottom: 0.6rem; margin-bottom: 0.8rem; border-bottom: dashed 0.05rem #e5e5e5;}
+.pf-con{ position: relative; margin-bottom: 0.5rem; }
+.pf-tel{ padding-top: 1rem;}
+.pfc-title{ float: left; width: 3.2rem; height: 1.7rem; line-height: 1.7rem; font-size: 0.6rem; color: #666; }
+.pf-con input,.pf-con select{ float: left; width: 8.7rem; height: 1.7rem; line-height: 1rem; border: solid 0.05rem #e5e5e5; border-radius: 0.1rem; box-sizing: border-box; padding-left: 0.2rem; font-size: 0.6rem;  }
+.form-error{ position: absolute; left: 3.2rem; top: 2.8rem; font-size: 0.5rem; color: #e40000; display: none;}
+.form-error em{ height: 0.5rem; width: 0.5rem; display: inline-block; position: relative; background: url("../images/icon01_1.png") no-repeat; background-size: 100%; margin-right: 0.1rem; top: 0.1rem;}
+.pf-btn{ margin-top: 1.2rem;}
+.pfc-hint{ position: absolute; left: 3.2rem; top: 0; display: inline-block; height: 0.9rem; line-height: 0.9rem; color: #fff; font-size: 0.5rem; background-color: #58b850; padding: 0 0.2rem; border-radius: 0.1rem;}
+.pfc-hint em{ width: 0.4rem; height: 0.5rem; display: inline-block; background: url("../images/icon05_1.png") no-repeat; background-size: 100%; margin-right: 0.2rem;  position: relative; top: 0.12rem;}
+
+/* 成功弹窗 */
+.pop-success{  width: 14rem; position: fixed; top: 50%; left: 50%; margin-left: -7rem; margin-top: -3rem; z-index: 99; background-color: #fff; box-sizing: border-box; padding: 0.6rem; border-radius: 0.1rem; text-align: center; display: none;  }
+.pop-success h3{ color: #333; font-size: 0.7rem;  padding-top: 0.6rem; line-height: 1rem; padding-bottom: 0.6rem; border-bottom: dashed 0.05rem #e5e5e5; }
+.pop-success h3 em{ width: 1rem; height:0.8rem; background: url("../images/icon04.png") no-repeat; background-size: 100%; display: inline-block; margin-right: 0.3rem; }
+.pop-success p{ font-size: 0.6rem; color: #666; padding: 0.6rem 0; line-height: 1rem;}

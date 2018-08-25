@@ -1,0 +1,260 @@
+@charset "utf-8";
+
+/*Banner*/
+.banner {
+	width: 100%;
+	min-width: 1180px;
+	height: 444px;
+	background: url(../images/banner.jpg) no-repeat center;
+}
+
+/*板块*/
+.zone {
+	width: 100%;
+	min-width: 1180px;
+}
+.zone > .container {
+	width: 1180px;
+	padding-top: 91px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+}
+/*板块标题*/
+.zone > .container > h1 {
+	font-size: 26px;
+	text-align: center;
+	color: #333;
+}
+.zone > .container > h1 img {
+	position: relative;
+	top: 2px;
+	display: inline-block;
+	margin-left: 9px;
+	margin-right: 9px;
+}
+.line {
+	position: relative;
+	top: -8px;
+	display: inline-block;
+	width: 67px;
+	height: 1px;
+	background-color: #dbdbdb;
+}
+
+/*99元记账资格申�?/
+.application {
+	height: 552px;
+	background: #f5f5f5 url(../images/bg1.png) no-repeat center bottom;
+}
+.application > .container { padding-top: 50px; }
+.application > .container > h1 { color: #235ca9; }
+.application > .container > .wrapper {
+	position: relative;
+	top: 42px;
+	left: 50%;
+	margin-left: -219.5px;
+	width: 439px;
+	height: 384px;
+	overflow: hidden;
+}
+.application input[type="text"], .application input[type="tel"] {
+	display: block;
+    width: 353px;
+    height: 54px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 60px;
+    padding-right: 11px;
+    font-size: 18px;
+    border: 1px solid #d7ecff;
+    background-color: #fff;
+}
+.user {
+	margin-top: 46px;
+    background: url(../images/user.png) left center no-repeat;
+    background-clip: padding-box;
+}
+
+.phone {
+    background: url(../images/companyphone.png) left center no-repeat;
+    background-clip: padding-box;
+}
+
+.applicationBtn {
+	display: block;
+	margin-bottom: 30px;
+	margin-top: 25px;
+	width: 353px;
+	height: 54px;
+	font-size: 18px;
+	color: #954700;
+	background-color: #ffe400;
+	cursor: pointer;
+}
+.application p {
+	margin-top: 15px;
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+}
+/* Mozilla Firefox 4 to 18 */
+:-moz-placeholder { color: #b6bac0; }
+/* Mozilla Firefox 19+ */
+::-moz-placeholder { color: #b6bac0; }
+input:-ms-input-placeholder { color: #b6bac0; }
+input::-webkit-input-placeholder { color: #b6bac0; }
+
+/* 服务对比 */
+.pk { background-color: #8098ff; }
+.pk > .container > h1 { color: #fff; }
+.pk > .container > img {
+	display: block;
+	width: 788px;
+	margin: 50px auto 54px auto;
+}
+
+/*产品详情*/
+.proinfo { background-color: #f8f8f8; }
+.proinfo > .container > img {
+	display: block;
+	width: 1162px;
+	margin: 80px auto 124px auto;
+}
+
+/*售后保障*/
+.afterSale { background-color: #ff7854; }
+.afterSale > .container > h1 { color: #fff; }
+.afterSale > .container > img {
+	display: block;
+	width: 1161px;
+	margin: 76px auto 79px auto;
+}
+
+/*成本样板*/
+.template { background-color: #fff; }
+.template > .container > img {
+	display: block;
+	width: 661px;
+	margin: 86px auto 80px auto;
+}
+
+/*完成后的资料*/
+.question { background: #f4f4f4 url(../images/bg.jpg) center no-repeat; }
+.question > .container {
+	width: 1032px;
+	padding-bottom: 96px;
+}
+.tabList { margin-top: 90px; }
+.tabItem > li {
+	position: relative;
+	padding-left: 50px;
+	margin-bottom: 34px;
+	width: 492px;
+	height: 44px;
+	line-height: 44px;
+	font-size: 20px;
+	color: #fff;
+	background: url(../images/tabitembg.png) center no-repeat;
+}
+.tabItem > li:last-child { margin-bottom: 0; }
+.tabItem > li > em {
+	position: absolute;
+	left: 0;
+	display: inline-block;	
+	width: 44px;
+	height: 44px;
+	font-size: 24px;
+	text-align: center;
+}
+
+/*客户见证*/
+.customer { background-color: #fab758; }
+.customer > .container { padding-bottom: 40px; }
+.customer > .container > h1 { color: #fff; }
+.customer > .container > h1 .line { background-attachment: #b4e3f8; }
+.ck-slide ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.ck-slide {
+	position: relative;
+	overflow: hidden;
+	width: 780px;
+	height: 360px;
+	margin: 0 auto;
+}
+.ck-slide ul.ck-slide-wrapper {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	margin: 0;
+	padding: 0;
+	height: 320px;
+}
+.ck-slide ul.ck-slide-wrapper li {
+	position: absolute;
+	padding-top: 50px;
+	margin-top:0px;
+	width: 780px;
+	height: 320px;
+}
+.ck-slide ul.ck-slide-wrapper li a{
+	/*a标签是行内元素，宽高对a标签不起作用，这里必须添加line-height:0px;display:black，否则垂直滚�?li>之间会出现间�?/
+	line-height:0px;
+	display:block;
+}
+.ck-slidebox {
+	position: absolute;
+	left: 50%;
+	bottom: 12px;
+	z-index: 30;
+}
+.ck-slidebox ul {
+	height: 20px;
+	padding: 0 4px;
+	border-radius: 8px;
+}
+.ck-slidebox ul li {
+	float: left;
+	height: 12px;
+	margin: 4px 4px;
+}
+.ck-slidebox ul li em {
+	display: block;
+	width: 12px;
+	height: 12px;
+	border-radius: 100%;
+	background-color: #999;
+	background-color: rgba(0,0,0,.3);
+	text-indent: -9999px;
+	cursor: pointer;
+}
+.ck-slidebox ul li.current em {
+	background-color: #fff;
+}
+.ck-slidebox ul li em:hover {
+	background-color: #fff;
+}
+.customerPic {
+	width: 231px;
+	height: 231px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	border: 3px solid #fff;
+}
+.customerInfo { padding-top: 30px; }
+.customerInfo > p {
+	margin-bottom: 10px;
+	font-size: 20px;
+	font-family: '黑体';
+	color: #fff;
+}
+.customerInfo > img {
+	display: block;
+	margin-top: 20px;
+	margin-left: -5px;
+}

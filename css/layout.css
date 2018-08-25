@@ -1,0 +1,19 @@
+﻿@charset "utf-8";
+/* 站点说明： 布局样式,包含头部、尾部、导航等样式
+ * 开发时间： 
+ * 开发者： 
+ * 维护者： 
+ *
+ * 样式版本： v1.0
+ * 版本时间： 
+ * 注意事项： 请勿轻易修改，共用部分主要样式
+ *
+ */
+.main{
+    background: #f1f1f1;
+}
+em{
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+}

@@ -1,0 +1,106 @@
+﻿@charset "utf-8";
+/* 站点说明： 公用样式，链接、按钮等
+ * 开发时间： 
+ * 开发者： 
+ * 维护者： 
+ *
+ * 样式版本： v1.0
+ * 版本时间： 
+ * 注意事项： 公用样式，链接、按钮等
+ */
+
+html{
+    font-size:100px;/*10÷16=62.5%*/
+}
+.nM-title{
+    position: relative;
+    height:0.42rem;
+    line-height:0.42rem;
+    background-color: #fe3000;
+    border-bottom: 1px solid #e26b03;
+}
+.nM-title h1{
+    color: #fff;
+    font-size: 0.18rem;
+    text-align: center;
+    font-weight: normal;
+}
+.nM-title a{
+    position: absolute;
+    right: 0.125rem;
+    width: 0.24rem;
+    height: 0.43rem;
+    color: #333;
+    font-size: 0.12rem;
+    top:0;
+    text-align: right;
+}
+
+.nM-title .go-back{ left:0.05rem; font-size:0.2rem; color:#fff;}
+
+.nM-title a.aClose{
+    background: rgba(0,0,0,0.2);
+    text-align: center;
+    width: 0.33rem;
+    height: 0.33rem;
+    top:0.05rem;
+    font-size: 0.2rem;
+    line-height: 0.33rem;
+    right: 0.05rem;
+}
+.nM-title a.closed {
+    background: rgba(0,0,0,0.2);
+    text-align: center;
+    width: 0.33rem;
+    height: 0.33rem;
+    top: 0.05rem;
+    font-size: 0.2rem;
+    line-height: 0.33rem;
+    right: 0.05rem;
+}
+.nM-prompt{
+    padding-bottom: 0.08rem;
+    padding-top: 0.08rem;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #f1ece5;
+}
+.nM-prompt p{
+    font-size: 0.11rem;
+    line-height: 0.15rem;
+    text-align: center;
+    color: #666;
+}
+.nM-prompt p span{
+    color: #ff7d01;
+}
+.pop-form{
+    position: absolute;
+    z-index: 18;
+    width: 100%;
+    top: 0;
+    background: #fff;
+}
+.clear{
+    clear: both;
+}
+.filter {
+    display: none;
+    position:fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background-color: rgba(0,0,0,.5);
+    width: 100%;
+    height: 100%;
+}
+.pop-form .telTip p,.pop-forms .telTip p{
+    font-size: 0.12rem;
+    color: #e94b2a;
+}
+.pop-form .telTip em,.pop-forms .telTip em{
+    width:0.12rem;
+    height:0.12rem;
+    background: url("../images/icon_01.png") no-repeat;
+    background-size: contain;
+    padding-right: 0.02rem;
+}

@@ -1,0 +1,59 @@
+@charset "utf-8";
+/*浏览器样式重�?begin*/
+html{font-size: 14px; font-family: "微软雅黑";}
+*,*:before,*:after{margin: 0; padding: 0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+h1,h2,h3,h4,h5,h6{font-weight: normal; font-size: 100%;}
+img{border: 0;}
+li{list-style: none;}
+:link,:visited,ins{text-decoration: none;}
+
+sub,sup{font-size: 100%; vertical-align: baseline;}
+blockquote,q{quotes: "\201C" "\201D" "\2018" "\2019";}
+blockquote:before,blockquote:after,q:before,q:after{content: ""; content: none;}
+input,button,textarea,select,optgroup,option{font-family: inherit; font-size: inherit; font-style: inherit; font-weight: inherit;}
+button,input,select,textarea{font-family: inherit; font-size: 100%; margin: 0; outline: none;}
+button::-moz-focus-inner,input::-moz-focus-inner{border: 0; padding: 0;}
+textarea{overflow: auto; resize: vertical; vertical-align: top;}
+i,em{font-style: normal;}
+a{color: #333; outline: none;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display: block;}
+audio,canvas,video{display: inline-block;}
+::selection{background-color: #25a1d7; color: #fff; text-shadow: 0 1px 0 rgba(0,0,0,0.3);}
+::-moz-selection{background-color: #25a1d7; color: #fff; text-shadow: 0 1px 0 rgba(0,0,0,0.3);}
+[placeholder]:focus::-webkit-input-placeholder{-webkit-transition: opacity 0.5s ease; transition: opacity 0.5s ease; opacity: 0;}
+/*浏览器样式重�?end*/
+/*辅助样式 begin*/
+.hide{display: none;}
+.bxsz{-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+.posr{position: relative;}
+.posa{position: absolute;}
+.posf{position: fixed;}
+.fr{float: right;}
+.fl{float: left;}
+.db{display: block;}
+.dib{display: inline-block;}
+.tac{text-align: center;}
+.tal{text-align: left;}
+.tar{text-align: right;}
+.clear_l{clear: left;}
+.clear_r{clear: right;}
+.clear_b{clear: both;}
+.ovh{overflow: hidden;}
+.hCenter{margin-left: auto; margin-right: auto;}
+.maw100{max-width: 100%;}
+.circle{-webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%;}
+.bdn{border: none;}
+.curp{cursor: pointer;}
+.strike{text-decoration: line-through;}
+.cf:after{content: ''; display: table; clear: both;}
+.filter-text{white-space: nowrap; text-overflow: ellipsis; overflow: hidden;}
+.bgf{background-color: #fff;}
+.bgt{background-color: transparent;}
+.fz12{font-size: 12px;}
+.fz14{font-size: 14px;}
+.fz16{font-size: 16px;}
+.fz18{font-size: 18px;}
+.fz20{font-size: 20px;}
+.fwb{font-weight: bold;}
+.ti2{text-indent: 2em;}
+/*辅助样式 end*/

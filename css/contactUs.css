@@ -1,0 +1,33 @@
+@charset "utf-8";
+.container {
+	width: 100%;
+	margin: 0 auto;
+	background-color: #fff;
+	box-sizing: border-box;
+}
+
+.header-index {
+	height: 2.4rem;
+	background-color: #c40000;
+	padding: 0 0.6rem;
+	overflow: hidden;
+	box-sizing: border-box;
+	border-bottom: solid 1px #cd3333;
+	position: fixed;
+	z-index: 9;
+	left: 0;
+	top: 0;
+}
+
+.hi-logo {
+	width: 3.5rem;
+	height: 1.25rem;
+	background: url(../images/logo.png) no-repeat;
+	margin: 0.6rem 0 0 0.15rem;
+	float: left;
+	background-size: contain;
+}
+
+.inquire {
+	background-color: #fff;
+}
